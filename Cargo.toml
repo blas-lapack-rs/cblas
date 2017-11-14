@@ -8,6 +8,8 @@ documentation = "https://docs.rs/cblas"
 homepage = "https://github.com/stainless-steel/cblas"
 repository = "https://github.com/stainless-steel/cblas"
 readme = "README.md"
+categories = ["api-bindings", "science"]
+keywords = ["linear-algebra"]
 
 [dependencies]
 cblas-sys = "0.1"
