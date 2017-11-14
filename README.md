@@ -27,22 +27,8 @@ let mut c = vec![
 ];
 
 unsafe {
-    dgemm(
-        Layout::ColumnMajor,
-        Transpose::None,
-        Transpose::None,
-        m,
-        n,
-        k,
-        1.0,
-        &a,
-        m,
-        &b,
-        k,
-        1.0,
-        &mut c,
-        m,
-    );
+    dgemm(Layout::ColumnMajor, Transpose::None, Transpose::None,
+          m, n, k, 1.0, &a, m, &b, k, 1.0, &mut c, m);
 }
 
 assert!(
