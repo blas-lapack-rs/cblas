@@ -8,3 +8,8 @@ documentation = "https://docs.rs/cblas"
 homepage = "https://github.com/stainless-steel/cblas"
 repository = "https://github.com/stainless-steel/cblas"
 readme = "README.md"
+
+[dependencies]
+cblas-sys = "0.1"
+libc = "0.2"
+num-complex = { version = "0.1", default-features = false }
