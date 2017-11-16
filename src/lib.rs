@@ -1,4 +1,4 @@
-//! Wrappers for [CBLAS]
+//! Wrappers for [CBLAS] \(C)
 //!
 //! The usage of the package is explained [here][usage].
 //!
