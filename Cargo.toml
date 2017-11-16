@@ -1,12 +1,12 @@
 [package]
 name = "cblas"
-version = "0.1.0"
+version = "0.1.1"
 license = "Apache-2.0/MIT"
 authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
-description = "The package provides wrappers for CBLAS."
+description = "The package provides wrappers for CBLAS (C)."
 documentation = "https://docs.rs/cblas"
-homepage = "https://github.com/stainless-steel/cblas"
-repository = "https://github.com/stainless-steel/cblas"
+homepage = "https://github.com/blas-lapack-rs/cblas"
+repository = "https://github.com/blas-lapack-rs/cblas"
 readme = "README.md"
 categories = ["api-bindings", "science"]
 keywords = ["linear-algebra"]

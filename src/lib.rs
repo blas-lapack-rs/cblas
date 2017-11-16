@@ -1,4 +1,6 @@
-//! Wrappers for [CBLAS].
+//! Wrappers for [CBLAS]
+//!
+//! The usage of the package is explained [here][usage].
 //!
 //! ## Example
 //!
@@ -39,17 +41,18 @@
 //! );
 //! ```
 //!
-//! [cblas]: https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms
+//! [cblas]: https://en.wikipedia.org/wiki/BLAS
+//! [usage]: https://blas-lapack-rs.github.io/usage
 
 extern crate cblas_sys as ffi;
 extern crate libc;
 extern crate num_complex as num;
 
-/// A complex number with 32-bit parts.
+/// A complex number with 32-bit parts
 #[allow(non_camel_case_types)]
 pub type c32 = num::Complex<f32>;
 
-/// A complex number with 64-bit parts.
+/// A complex number with 64-bit parts
 #[allow(non_camel_case_types)]
 pub type c64 = num::Complex<f64>;
 
