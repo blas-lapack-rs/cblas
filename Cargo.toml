@@ -2,7 +2,10 @@
 name = "cblas"
 version = "0.2.0"
 license = "Apache-2.0/MIT"
-authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+authors = [
+    "Ivan Ukhov <ivan.ukhov@gmail.com>",
+    "Toshiki Teramura <toshiki.teramura@gmail.com>",
+]
 description = "The package provides wrappers for CBLAS (C)."
 documentation = "https://docs.rs/cblas"
 homepage = "https://github.com/blas-lapack-rs/cblas"
