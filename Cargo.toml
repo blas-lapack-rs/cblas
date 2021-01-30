@@ -12,6 +12,6 @@ categories = ["api-bindings", "science"]
 keywords = ["linear-algebra"]
 
 [dependencies]
-cblas-sys = "0.1.4"
-libc = "0.2.84"
-num-complex = { version = "0.3.1", default-features = false }
+cblas-sys = "0.1"
+libc = "0.2"
+num-complex = { version = "0.3", default-features = false }
