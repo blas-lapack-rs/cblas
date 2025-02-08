@@ -52,8 +52,8 @@ will be licensed according to the terms given in [LICENSE.md](LICENSE.md).
 [architecture]: https://blas-lapack-rs.github.io/architecture
 [cblas]: https://en.wikipedia.org/wiki/BLAS
 
-[build-img]: https://travis-ci.org/blas-lapack-rs/cblas.svg?branch=master
-[build-url]: https://travis-ci.org/blas-lapack-rs/cblas
+[build-img]: https://github.com/blas-lapack-rs/cblas/actions/workflows/build.yml/badge.svg
+[build-url]: https://github.com/blas-lapack-rs/cblas/actions/workflows/build.yml
 [documentation-img]: https://docs.rs/cblas/badge.svg
 [documentation-url]: https://docs.rs/cblas
 [package-img]: https://img.shields.io/crates/v/cblas.svg

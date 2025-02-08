@@ -44,8 +44,9 @@
 //! [architecture]: https://blas-lapack-rs.github.io/architecture
 //! [cblas]: https://en.wikipedia.org/wiki/BLAS
 
+#![allow(clippy::missing_safety_doc, clippy::too_many_arguments)]
+
 extern crate cblas_sys as ffi;
-extern crate libc;
 extern crate num_complex as num;
 
 /// A complex number with 32-bit parts.
